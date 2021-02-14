@@ -1,13 +1,17 @@
 {
-  "name": "teste",
+  "name": "loja",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@editorjs/editorjs": "^2.19.1",
+    "@editorjs/header": "^2.6.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "history": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.0.1"
   },
@@ -34,5 +38,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@editorjs/image": "^2.6.0",
+    "@editorjs/list": "^1.6.2",
+    "@editorjs/quote": "^2.4.0",
+    "@editorjs/simple-image": "^1.4.0"
   }
 }
